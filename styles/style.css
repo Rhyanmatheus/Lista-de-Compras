@@ -1,0 +1,97 @@
+@import url(reset.css);
+
+:root {
+    --cinza-claro: #f9f9f9;
+    --coral: #f55b64;
+    --ocre: #c2373f;
+    --marinho: #131730;
+}
+
+body {
+    background: rgb(19,23,48);
+    background: linear-gradient(180deg, rgba(19,23,48,1) 12%, rgba(35,22,219,1) 78%);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+.img {
+    width: 50%;
+    margin: 0 auto 1em auto;
+    display: block;
+}
+
+.img_divisor {
+    width: 100%;
+}
+
+.container {
+    background-color: var(--cinza-claro);
+    border-radius: 0.625em;
+    padding: 2.5em 1em 6em 1em;
+    margin: 1em ;
+    width: 80%;
+    max-width: 600px;
+   /* margin: 0 auto; */
+    min-height: 80vh;
+}
+
+.botao {
+    color: white;
+    background-color: var(--coral);
+    padding: 1em;
+    border-radius: 24px;
+    border: none;
+    width: 100%;
+    max-width: 200px;
+    margin: 0 auto;
+    display: block;
+}
+
+.pesquisa {
+    background-color: transparent;
+    border: 1px solid black;
+    color: #ffffff;
+    border-radius: 24px;
+    padding: 1em;
+    width: 100%;
+    text-align: center;
+}
+
+.container_botao {
+    padding: 10px;
+}
+
+.subtitulo {
+    font-weight: 700;
+    color: var(--coral);
+    font-size: 32px;
+    text-align: center;
+}
+
+.lista-compras {
+    list-style-type: none;
+    padding: 0;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+    transform: scale(1.5);
+}
+
+label {
+    font-size: 1.8em;
+}
+
+.linha_compras {
+    padding: 10px;
+}
+
+.observacao {
+    display: block;
+    font-size: 0.9em;
+    color: gray;
+    margin-top: 0.5em;
+}
